@@ -1,0 +1,21 @@
+{
+  "name": "yarn-catalog-repro",
+  "version": "1.0.0",
+  "description": "Reproduction of Catalog Bug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vinnymac",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "zod": "catalog:"
+  },
+  "packageManager": "yarn@4.10.3",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": "22.x"
+  }
+}
